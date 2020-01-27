@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/callimg"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:paddingStart="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/callcircle"
+        app:layout_constraintBottom_toBottomOf="@id/coordinator_tv2"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintTop_toTopOf="@id/coordinator_tv1" />
+
+
+    <View
+        android:id="@+id/callline"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/LightGrayText"
+        app:layout_constraintBottom_toBottomOf="@+id/callimg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/callimg"
+        app:layout_constraintTop_toTopOf="@+id/callimg" />
+
+    <TextView
+        android:id="@+id/coordinator_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end|bottom"
+        android:paddingStart="20dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="2dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="16sp"
+        android:textColor="@color/LightGrayText"
+        app:layout_constraintBottom_toTopOf="@+id/callline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/callline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/coordinator_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end|top"
+        android:paddingStart="20dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="5dp"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/LightGrayText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/callline"
+        app:layout_constraintTop_toBottomOf="@+id/callline"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

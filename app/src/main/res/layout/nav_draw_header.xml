@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/NavigationDrawerWidth"
+    android:layout_height="@dimen/NavigationDrawerHeight"
+    android:background="#242424"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".58"
+        android:background="@drawable/nav_header_bg" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nav_tagline"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/textView"
+        android:scaleType="fitCenter"
+        android:src="@drawable/splash_logo_dropshadow" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/grindanddeath"
+        android:gravity="center_vertical"
+        android:text="@string/app_title"
+        android:textColor="@color/LighterGrayText"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/nav_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginStart="0dp"
+        android:fontFamily="@font/beautydemo"
+        android:textSize="30sp"
+        android:layout_marginTop="-12dp"
+        android:text="@string/tag_line"
+        android:textColor="@color/LighterGrayText" />
+
+    <TextView
+        android:id="@+id/nav_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_tagline"
+        android:layout_alignStart="@+id/nav_tagline"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-3dp"
+        android:fontFamily="@font/anonymous_pro"
+        android:autoLink="web"
+        android:letterSpacing="-.03"
+        android:textColorLink="@color/LighterGrayText"
+        android:textSize="15sp"
+        android:text="@string/website"
+        android:textColor="@color/LighterGrayText" />
+
+
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="EventNamesDay1">
+        <item> </item>
+        <item> </item>
+        <item>Opening Ceremony</item>
+        <item>Heatz</item>
+        <item>Snail Mail</item>
+        <item>Literathon</item>
+        <item>Group Discussion</item>
+        <item>Just a Minute</item>
+        <item>Karaoke Eve</item>
+    </string-array>
+
+
+    <string-array name="EventNamesDay2">
+        <item> </item>
+        <item> </item>
+        <item>Legal Eagle</item>
+        <item>Gabble Fable</item>
+        <item>Demotic Express</item>
+        <item>Stagecraft</item>
+        <item>Enliven Arena</item>
+        <item>Closing Ceremony</item>
+    </string-array>
+
+    <string-array name="EventVenuesDay1">
+        <item> </item>
+        <item> </item>
+        <item>Audi 3</item>
+        <item>Audi 3</item>
+        <item>Audi 6</item>
+        <item>Audi 4</item>
+        <item>Audi 5</item>
+        <item>Audi 6</item>
+        <item>Canteen Ground</item>
+    </string-array>
+
+
+    <string-array name="EventVenuesDay2">
+        <item> </item>
+        <item> </item>
+        <item>Audi 4</item>
+        <item>Audi 3</item>
+        <item>Audi 5</item>
+        <item>Audi 6</item>
+        <item>Audi 4</item>
+        <item>Audi 3</item>
+    </string-array>
+
+
+    <string-array name="EventTimesDay1">
+        <item> </item>
+        <item> </item>
+        <item>09:45 AM – 10:30 AM</item>
+        <item>10:45 AM – 01:30 PM</item>
+        <item>11:30 AM – 01:30 PM</item>
+        <item>12:30 PM – 04:30 PM</item>
+        <item>01:30 PM – 04:30 PM</item>
+        <item>02:00 PM – 04:30 PM</item>
+        <item>06:00 PM – 09:00 PM</item>
+    </string-array>
+
+
+    <string-array name="EventTimesDay2">
+        <item> </item>
+        <item> </item>
+        <item>10:00 AM – 01:00 PM</item>
+        <item>11:00 AM – 01:00 PM</item>
+        <item>12:00 AM – 03:30 PM</item>
+        <item>01:00 PM – 04:30 PM</item>
+        <item>02:00 PM – 04:30 PM</item>
+        <item>04:30 PM – 05:15 PM</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNames1Day1">
+        <item> </item>
+        <item> </item>
+        <item>Avneesh Yadav</item>
+        <item>Shifali Tandon</item>
+        <item>Nikhil Gautam</item>
+        <item>Harsh Kapoor</item>
+        <item>Sakshi Shukla</item>
+        <item>Avneesh Yadav</item>
+        <item>Harsh Kapoor</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNames1Day2">
+        <item> </item>
+        <item> </item>
+        <item>Avneesh Yadav</item>
+        <item>Manas Priya</item>
+        <item>Nikhil Gautam</item>
+        <item>Harsh Kapoor</item>
+        <item>Avneesh Yadav</item>
+        <item>Harsh Kapoor</item>
+    </string-array>
+
+
+    <string-array name="EventCoordinatorsNames2Day1">
+        <item> </item>
+        <item> </item>
+        <item>Sakshi Shukla</item>
+        <item>Utsav Chaparia</item>
+        <item>Prateek Raj</item>
+        <item>Manas Priya</item>
+        <item>Utsav Chaparia</item>
+        <item>Shifali Tandon</item>
+        <item>Manas Priya</item>
+    </string-array>
+
+
+    <string-array name="EventCoordinatorsNames2Day2">
+        <item> </item>
+        <item> </item>
+        <item>Sakshi Shukla</item>
+        <item>Utsav Chaparia</item>
+        <item>Shifali Tandon</item>
+        <item>Prateek Raj</item>
+        <item>Manas Priya</item>
+        <item>Prateek Raj</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNumbersDay1">
+        <item> </item>
+        <item> </item>
+        <item>8182882734</item>
+        <item>8953722800</item>
+        <item>8279576375</item>
+        <item>6398152890</item>
+        <item>8953722800</item>
+        <item>8182882734</item>
+        <item>6398152890</item>
+    </string-array>
+
+    <string-array name="EventCoordinatorsNumbersDay2">
+        <item> </item>
+        <item> </item>
+        <item>8182882734</item>
+        <item>8953722800</item>
+        <item>8279576375</item>
+        <item>6398152890</item>
+        <item>8182882734</item>
+        <item>6398152890</item>
+    </string-array>
+
+    <string-array name="EventDetailsDay1">
+        <item> </item>
+        <item> </item>
+        <item>Every year the <i>ravishing</i>, <i>zestful</i> and <i>happening</i> journey of <b>GLITZ</b> begins with the lightening of the lamp and Saraswati Vandana. \nThis will be followed by the welcome speech and many more eye-opening festivities.</item>
+        <item>1. Participants will come in a team of two.\n2. One participant will speak for the motion and the other, against the motion.\n3. Each participant will be given 2 minutes to give his/her views on the topic:\n\n<b>\'GOVERNMENT IN POWER: Striking or Incompetent for India.\'</b>\n\n4. Further there will be an interjection round, each team will be given 60 seconds to ask questions from the opposite team.\n5. The shortlisted teams will be screened to the finale, i.e. <b>\'Legal Eagle\'</b>.</item>
+        <item>1. It is an individual event.\n2. Each participant will write a letter based on the topic displayed on the screen.\n3. The sheets will be shuffled after 40 minutes of writing.\n4. SParticipants will get another 40 minutes to write a reply to the letter received.\n5. The word limit for each letter is 200 words.\n6. Winners will be screened to the finale, i.e. <b>\'Gabble Fable\'</b></item>
+        <item>1. It is a team event.\n2. Each team comprises four members.\n3. The event comprises four rounds.\n\t\t\t* Word Depiction\n\t\t\t* Crosswords\n\t\t\t* Unscramble\n\t\t\t* Rapid Fire\n4. Prevail in the first three rounds to compete in the final.\n5. Rapid fire includes logos, taglines, movies, mythology, sports and current affairs.</item>
+        <item>1. Each group will comprise 6–8 members.\n2. Topics will be given on the spot.\n3. Total time will be 10 minutes i.e., 1 minute for preparation, 8 minutes for discussion, 1 minute for the conclusion.\n4. Winners will proceed to the finale, i.e. <b>\'Demotic Express\'</b>.</item>
+        <item>1. Each group comprises 6 members.\n2. Total time will be 1 minute.\n3. This is an impromptu event and therefore the topic will be provided on the spot.\n4. Stuttering, stammering, over-dramatization,  unnecessary pauses, hesitation, repetition of ideas, slangs, factual errors, logical errors and grammatical errors are not allowed.</item>
+        <item>It is said that music is the art of combining tones in a manner to please the ears. The world\'s most famous and popular language is music, the purest form of communication. It gives wings to our mind, flight to our imagination and life to everything. An evening when you\’ve to wear your party shoes and celebrate the moment to lose yourself and forget everything.\n\nAfter some thrilling lit episodes, it\’s that time of the evening when everyone can be carefree and enjoy some scintillating performances in the <b>KARAOKE EVE</b>.\n\nIf you love performing, Karaoke Eve is the platform where you do not need to be a marvel at singing. So, come, shake off the dust, hit the stage and embrace the mic.</item>
+    </string-array>
+
+
+    <array name="EventDetailsDay2">
+        <item> </item>
+        <item> </item>
+        <item>Welcome to the finale of <b>\'Heatz\'</b>\n1. The team will comprise 2 members.\n2. A case will be given and the two rivals will have to defend their respective bargains.\n3. Total time given to each team is 11 minutes i.e., 4 minutes for the first session, 2 minutes strategic timeout, another 4 minutes for the second session and 1 minute to conclude.\n4. The team that convinces the jury eventually wins.</item>
+        <item>Welcome to the finale of <b>\'Snail Mail\'</b>\n1. It is an individual event.\n2. Six participants will be called on stage randomly.\n3. A topic will be provided on the spot.\n4. Each participant will speak a sentence that is logically connected to the previous sentence to weave a story.\n5. Be aware participants fumbling, grammatical errors, unnecessary pauses, factual errors and logical errors will cost you a life.\n6. Relax, each participant can die twice.</item>
+        <item>Welcome to the finale of <b>\'Group Discussion\'</b>\n1. This is a group event that comprises 6-8 participants.\n2. The qualifiers will be mailed a list of themes to prepare.\n3. A topic will be displayed related to the themes and the candidates will be assigned roles for discussion.\n4. The candidates will have to stick to their roles.\n5. The total time will be 10 minutes, i.e. 1 minute for preparation, 8 minutes for discussion and 1 minute for the conclusion.</item>
+        <item>1. It is a group event that comprises 6-8 members.\n2. Participants will be provided with 4 themes:\n\t\t\ti.\t\tIndian Army: Service before Self.\n\t\t\tii. \tA weird magical day when no one could lie\n\t\t\tiii. \tMandi: Reality of Farmers.\n\t\t\tiv. \tKashmir after scrapping of Article 370.\n3. Performance can be either in <b>English</b> or <b>Hindi</b>\n4.Participants will be given 2 choices.\n\t\t\t• ELO-MIME (A group will elocute and a group will enact simultaneously.)\n\t\t\t• THEATRICS.\n5. The time limit is 3-8 minutes.\n6. Slangs are not allowed.\n\n<b>***Participants are requested to bring their respective props.***</b></item>
+        <item>1. It is a team event comprising 2-3 members.\n2. A mute video will be played on the screen.\n3. Participants will be provided with a genre according to which they have to inact the video.\n4. Time limit is 1 minute and 30 seconds.</item>
+        <item>This marks the end of <b>Glitz\’19</b>. The key highlights of this event will include prize distribution, speech of dignitaries and a few surprises.</item>
+    </array>
+
+</resources>

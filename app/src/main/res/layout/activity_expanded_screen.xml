@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:theme="@style/NewActivitesTheme"
+    tools:context=".ExpandedScreen">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="0dp"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:paddingBottom="50dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="70dp">
+
+
+            <ImageView
+                android:id="@+id/time_img"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="15dp"
+                android:contentDescription="@string/time"
+                android:padding="2dp"
+                android:scaleType="centerInside"
+                app:layout_constraintBottom_toBottomOf="@+id/time_tv"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/time_tv"
+                app:srcCompat="@drawable/time_clock" />
+
+            <TextView
+                android:id="@+id/time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingStart="5dp"
+                android:textSize="18sp"
+                android:ordering="sequentially"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="@color/LightGrayText"
+                app:layout_constraintStart_toEndOf="@+id/time_img"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@string/time" />
+
+            <ImageView
+                android:id="@+id/venue_img"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="15dp"
+                android:contentDescription="@string/venue"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/venue_tv"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/venue_tv"
+                app:srcCompat="@drawable/ic_location_on_white_24dp" />
+
+            <TextView
+                android:id="@+id/venue_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingStart="5dp"
+                android:textSize="22sp"
+                android:ordering="sequentially"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                android:textColor="@color/LightGrayText"
+                app:layout_constraintStart_toEndOf="@+id/venue_img"
+                app:layout_constraintTop_toBottomOf="@+id/time_tv"
+                tools:text="@string/venue" />
+
+            <TextView
+                android:id="@+id/ruleordescript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:textSize="29sp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                android:textColor="@color/MediumGrayText"
+                android:fontFamily="@font/meansans"
+                app:layout_constraintTop_toBottomOf="@+id/venue_tv"
+                tools:text="@string/rules" />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="60dp"
+                android:background="@color/DarkGrayText"
+                app:layout_constraintTop_toBottomOf="@+id/ruleordescript" />
+
+
+            <TextView
+                android:id="@+id/description_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="22dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="22dp"
+                android:paddingBottom="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="17sp"
+                android:textColor="@color/LighterGrayText"
+                app:layout_constraintTop_toBottomOf="@+id/line1"
+                tools:text="@string/descript" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:background="@color/DarkGrayText"
+                app:layout_constraintTop_toBottomOf="@+id/description_tv" />
+
+            <include
+                layout="@layout/coordinator_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line2" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/venue_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/NavigationFAB"
+        android:src="@drawable/venue_white"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/contact_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="@color/ContactFAB"
+        android:src="@drawable/call_white"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/venue_fab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="12dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

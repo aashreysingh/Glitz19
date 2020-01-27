@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".8"
+        android:background="@color/Black" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/swipe_hor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="20dp"
+            android:breakStrategy="simple"
+            android:fontFamily="@font/danielbd"
+            android:padding="2dp"
+            android:text="Swipe horizontally to browse the events."
+            android:textColor="@color/LightGrayText"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/hand1"
+            app:layout_constraintEnd_toStartOf="@+id/pointing"
+            app:layout_constraintStart_toStartOf="@+id/swipe_ver" />
+
+
+        <ImageView
+            android:id="@+id/hand1"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/handgest"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/swipe_right"
+            app:layout_constraintStart_toEndOf="@+id/swipe_left" />
+
+        <ImageView
+            android:id="@+id/swipe_left"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/swipe_left"
+            app:layout_constraintBottom_toBottomOf="@+id/hand1"
+            app:layout_constraintEnd_toStartOf="@+id/hand1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hand1"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/swipe_right"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="32dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/swipe_right"
+            app:layout_constraintBottom_toBottomOf="@+id/hand1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hand1"
+            app:layout_constraintTop_toTopOf="@+id/hand1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/swipe_up"
+            android:layout_width="20dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/swipe_up"
+            app:layout_constraintBottom_toTopOf="@+id/hand2"
+            app:layout_constraintEnd_toEndOf="@+id/hand2"
+            app:layout_constraintStart_toStartOf="@+id/hand2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/swipe_down"
+            android:layout_width="20dp"
+            android:layout_height="145dp"
+            android:layout_marginBottom="38dp"
+            android:src="@drawable/swipe_down"
+            app:layout_constraintBottom_toTopOf="@+id/swipe_hor"
+            app:layout_constraintEnd_toEndOf="@+id/hand2"
+            app:layout_constraintStart_toStartOf="@+id/hand2" />
+
+        <ImageView
+            android:id="@+id/hand2"
+            android:layout_width="37dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/handgest"
+            app:layout_constraintBottom_toTopOf="@+id/swipe_down"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/swipe_ver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:breakStrategy="simple"
+            android:padding="2dp"
+            android:text="Swipe vertically to browse the application."
+            android:textColor="@color/LightGrayText"
+            android:textSize="15sp"
+            android:fontFamily="@font/danielbd"
+            app:layout_constraintBottom_toBottomOf="@+id/swipe_down"
+            app:layout_constraintEnd_toStartOf="@+id/hand1"
+            app:layout_constraintStart_toEndOf="@+id/hand2"
+            app:layout_constraintTop_toTopOf="@+id/swipe_up" />
+
+        <ImageView
+            android:id="@+id/pointing"
+            android:layout_width="92dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/pointing_arrow"
+            app:layout_constraintBottom_toBottomOf="@+id/swipe_ver"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/swipe_ver"
+            app:layout_constraintVertical_bias="0.100000024" />
+
+
+        <TextView
+            android:id="@+id/pointingText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="8dp"
+            android:breakStrategy="simple"
+            android:fontFamily="@font/danielbd"
+            android:text="Tap the event to know more about it!"
+            android:textColor="@color/LightGrayText"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/pointing"
+            app:layout_constraintEnd_toEndOf="@+id/pointing"
+            app:layout_constraintStart_toEndOf="@+id/swipe_ver" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#101010</color>
+
+    <color name="colorPrimaryLight">#515151</color>
+
+
+    <color name="colorAccent">#9a95cc</color>
+
+
+
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+
+
+    //---->MaterialDarkTheme
+
+    <color name="DarkThemeSurface">#202020</color>
+
+    <color name="CardSurfaceDark">#363636</color>
+
+    //---->DarkThemeText
+
+    <color name="DarkGrayText">#6c6e6e</color>
+    <color name="MediumGrayText">#9a9a9a</color>
+    <color name="LightGrayText">#aeaeae</color>
+    <color name="LighterGrayText">#c1c1c1</color>
+
+    <color name="GmailFAB">#D44638</color>
+    <color name="FacebookFAB">#3b5998</color>
+    <color name="NavigationFAB">#003075</color>
+    <color name="ContactFAB">#009900</color>
+
+    <color name="progressTint">#D44638</color>
+    <color name="progressBGTint">#3b5998</color>
+
+
+
+
+</resources>

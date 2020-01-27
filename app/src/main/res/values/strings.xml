@@ -1,0 +1,86 @@
+<resources>
+
+    <string name="app_name">Glitz 2019</string>
+    <string name="app_title">Glitz</string>
+    <string name="app_title19">Glitz\'19</string>
+    <string name="tag_line">Gathering of the Literary Zealots</string>
+
+    <string name="date1">21st September, 2019</string>
+    <string name="date2">22nd September, 2019</string>
+
+    <string name="day1">Day 1</string>
+    <string name="day2">Day 2</string>
+
+    <string name="time">Time</string>
+    <string name="venue">Venue</string>
+    <string name="setup_reminder">Setup Reminder</string>
+    <string name="contact">Contact</string>
+
+    <string name="sponsorby">Sponsored By</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+
+    <string name="extras">Extras</string>
+    <string name="events">Events</string>
+    <string name="close">close</string>
+
+    <string name="content_Description_clock">TODO</string>
+
+    <string name="rules">Rules</string>
+    <string name="descript">Description</string>
+
+
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+
+
+    <string name="time_left">Be ready to get glitzy again in</string>
+    <string name="timeup">Get ready with your ticktes.!!\n\n<b>DAY 1</b> is here!!</string>
+
+
+    <string name="not_registered">Not registered, yet?</string>
+    <string name="register_now">Register Now!</string>
+    <string name="confused">Are you confused with the schedule?</string>
+    <string name="check_schedule">Check it here!</string>
+    <string name="schedule">Schedule</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="instructions">Instructions</string>
+    <string name="map">Map</string>
+    <string name="c_map">Campus Map</string>
+    <string name="faqs">FAQs</string>
+    <string name="developers">Developers</string>
+    <string name="developer">Developer</string>
+    <string name="about_us">About Us</string>
+    <string name="team">Team</string>
+    <string name="glitz_team">Glitz Team</string>
+    <string name="home">Home</string>
+    <string name="communicate">Communicate</string>
+
+    <string name="not_reg_timeup">Sorry, registrations are now closed.</string>
+    <string name="reg_now_timeup">Time\'s Up!</string>
+
+    <string name="admin_location">https://goo.gl/maps/SEvsSN4WRrG2</string>
+    <string name="audi_location">https://goo.gl/maps/GH1P7TYRzNU2</string>
+
+    <string name="swipe_up_down">Swipe vertically to explore the app</string>
+    <string name="swipe_left_right">Swipe horizontally to browse more events</string>
+
+
+    <string name="name">Aashrey Singh</string>
+    <string name="personal_contact">+91 9452737432</string>
+    <string name="email_id">aashreytemp002@gmail.com</string>
+
+    <string name="url">https://glitz.splashthat.com</string>
+    <string name="website"><a href="https://glitz.splashthat.com">www.glitz.splashthat.com</a></string>
+
+    <string name="instructionNote">* Students of any institute interested in participating in GLITZ-2019 are required to register on the website - <a href="https://glitz.splashthat.com">www.glitz.splashthat.com</a>. \n\n* Online registration will close on September 20, 2019, at 10:00 AM.    \n\n<b>Note:</b> The students who do not register on the website will not be entertained. \n\n* Participants are required to bring: - \n            \t\t- their ticket number (which had been sent to their emails). \n           \t\t- two passport size photographs. \n            \t\t- college identity card. \n\n* Participants who have registered online have to collect their identity card from the registration counter on September 21, 2019, before 10:00 AM.\n\n* Registration of each event will be done on the spot. \n\n* Registration fee is Rs.100 for students of the colleges other than MIET and MIT. \n\n* Registration fee is Rs.50 for students of MIET and MIT. \n\n* Accommodation fee is Rs.100. \n\n* Authorization letter from institutes permitting their students to participate in GLITZ-2019 is required. \n\n* All the participants are required to conﬁrm their registration immediately at the registration counter. \n\n\n<b>Miscellaneous:</b>   \n* Registration of each event will be done on spot and on ﬁrst come ﬁrst serve basis. \n* Any kind of indiscipline will result in disqualiﬁcation of the participant. \n* Participants are required to abide by the rules and regulations. \n* Decision of the judges will be last and ﬁnal.\n* Participants should reach the venue on time.\n* Registration fee is not refundable under any circumstances.</string>
+    <string name="faqsNote"><b>➾What is the procedure to participate in Glitz \‘19?</b>\n>Participants will have to first register themselves online through our official website i.e. glitz.splashthat.com. Then, they will receive their ticket on their registered email ids, which should be shown to officials on the registration desk on 21st of September 2019.\n\n\n<b>➾What is the duration of the registration process during the fest?</b>\n>The registration fee (Rs.50 for the students of MIET/MIT and Rs.100 for others) would be paid on the registration counter inside the college premises on 21st and 22nd September. Hence, after you will be provided with a participant ID card, making you eligible to participate in all the events of your choice.\n\n\n<b>➾Does the registration fees include Karaoke Eve entry?</b>\n>Yes, the registration fee includes karaoke eve entry.\n\n\n<b>➾What is the entry fees for students not of MIET?</b>\n>No, the registration fee only makes you eligible to participate in all the events and karaoke eve. There is an additional ₹100 charge for accommodation and fooding.\n\n\n<b>➾Does the registration fees for students outside MIET include accommodation and fooding?</b>\n>The main registrations will close at 1.00 pm. While you can register for the events separately, half an hour past the commencement of the event.</string>
+    <string name="organizing_committee">Organizing Committee,\nGLITZ’19</string>
+
+    <string name="aboutusNote">Meerut Institute of Engineering and Technology, affiliated to AKTU (formerly known as UPTU) has been a pioneer educational institute for over 20 years. MIET is proud to have a successful set of alumni and is still providing the world with the quality of educated citizens. We believe our sincerity, dedication, and focus towards our goals have been instrumental in our accomplishments.\n\nGLITZ, the official literary fest of MIET is a brand in itself. It has emerged as Meerut’s most anticipated literary extravaganza and one of the prodigious fest in Uttar Pradesh. What sets GLITZ apart from the other fests is the devotion of the students working for it and the intense desire to deliver the maximum. The support of college management plays a crucial role in taking GLITZ ahead every year and making it a renowned success. It instigates the feeling of happiness and charisma, which is sufficient to satiate the year-long wait for the grand fest.\n\nInaugurating with the rousing <b>Heatz</b>, we get things rolling with fun and fiery events like <b>Literathon</b> and <b>Legal Eagle</b> where one can truly embrace the art of participation and erudition. This magnificent journey becomes more enchanting by the mesmerizing performances in the gleam of <b>Karaoke Night</b>. The events held in GLITZ are widely acclaimed by youngsters due to the exciting cash prizes, which hence inculcate the much-needed zeal for being a winner.\n\nBeing a youth extravaganza, GLITZ aims at culminating in the potential through various opportunities by providing a platform to the emerging literary zealots where they can manifest their inner self. Looking forward to your active participation with GLITZ.</string>
+
+</resources>

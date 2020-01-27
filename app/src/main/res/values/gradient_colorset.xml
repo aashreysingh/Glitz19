@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="timer1">#EEBD89</color>
+    <color name="timer2">#d13abd</color>
+
+    <color name="register1">#CC95C0</color>
+    <color name="register2">#DBD4B4</color>
+    <color name="register3">#7AA1D2</color>
+
+    <color name="schedule1">#1c92d2</color>
+    <color name="schedule2">#f2fcfe</color>
+
+    <color name="day_card1">#364663</color>
+    <color name="day_card2">#441C3A</color>
+    
+    <color name="dash1">#18AE94</color>
+    <color name="dash2">#5197D5</color>
+    <color name="dash3">#E86F9C</color>
+    <color name="dash4">#B4A94E</color>
+    <color name="dash5">#B95C5C</color>
+    <color name="dash6">#E89F4C</color>
+    <color name="dash7">#A16FBE</color>
+    <color name="dash8">#78A275</color>
+
+</resources>

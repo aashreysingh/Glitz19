@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/reg_now"
+            android:title="@string/register_now"
+            android:icon="@drawable/reg_now"/>
+
+        <item
+            android:id="@+id/instructions"
+            android:title="@string/instructions"
+            android:icon="@drawable/instruction"/>
+
+        <item
+            android:id="@+id/schedule"
+            android:title="@string/schedule"
+            android:icon="@drawable/schedule"/>
+
+        <item
+            android:id="@+id/sponsors"
+            android:title="@string/sponsors"
+            android:icon="@drawable/sponsor"/>
+
+        <item
+            android:id="@+id/faqs"
+            android:title="@string/faqs"
+            android:icon="@drawable/faq"/>
+
+        <item
+            android:id="@+id/about_us"
+            android:title="@string/about_us"
+            android:icon="@drawable/about_us"/>
+
+        <item
+            android:id="@+id/communicate"
+            android:title="@string/communicate">
+
+            <menu>
+
+                <group
+                    android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/team"
+                        android:title="@string/glitz_team"
+                        android:icon="@drawable/team_5" />
+
+                    <item
+                        android:id="@+id/developer"
+                        android:title="@string/developers"
+                        android:icon="@drawable/dev"/>
+
+                </group>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/dashreg_now"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/dashmap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/dashmap"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/dashschedule"
+        app:layout_constraintStart_toEndOf="@+id/dashreg_now"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/dashschedule"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/dashfaqs"
+        app:layout_constraintStart_toEndOf="@+id/dashmap"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/dashinstruct"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/dashteam"
+        app:layout_constraintStart_toEndOf="@+id/dashsponsors"
+        app:layout_constraintTop_toBottomOf="@+id/dashmap" />
+
+    <include
+        android:id="@+id/dashsponsors"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/dashinstruct"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dashreg_now" />
+
+    <include
+        android:id="@+id/dashfaqs"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dashschedule"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/dashteam"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/dashabout_us"
+        app:layout_constraintStart_toEndOf="@+id/dashinstruct"
+        app:layout_constraintTop_toBottomOf="@+id/dashschedule" />
+
+    <include
+        android:id="@+id/dashabout_us"
+        layout="@layout/dash_item"
+        android:layout_width="@dimen/dashItemWidth"
+        android:layout_height="@dimen/dashItemHeight"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dashteam"
+        app:layout_constraintTop_toBottomOf="@+id/dashfaqs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

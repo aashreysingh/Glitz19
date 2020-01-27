@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Names4">
+        <item>Aashrey Singh</item>
+        <item>Ayesha Sanober</item>
+        <item>Esha Nigam</item>
+        <item>Kratika Maheshwari</item>
+        <item>Pallavi Rani</item>
+        <item>Priyash Srivastava</item>
+        <item>Sachin Shehrawat</item>
+        <item>Shantanu Sharma</item>
+    </string-array>
+
+    <string-array name="Details4">
+        <item>aashrey.singh.cs.2016@miet.ac.in</item>
+        <item>ayesha.sanober.bt.2016@miet.ac.in</item>
+        <item>esha.nigam.ce.2016@miet.ac.in</item>
+        <item>kratika.maheshwari.bsc.2016@miet.ac.in</item>
+        <item>pallavi.rani.cs.2016@miet.ac.in</item>
+        <item>priyash.srivastava.cs.2016@miet.ac.in</item>
+        <item>sachin.shehrawat.ec.2016@miet.ac.in</item>
+        <item>shantanu.sharma.ec.2016@miet.ac.in</item>
+    </string-array>
+
+    <string-array name="Photos4">
+        <item>aashrey</item>
+        <item>ayesha</item>
+        <item>esha</item>
+        <item>kratika</item>
+        <item>pallavi</item>
+        <item>priyash</item>
+        <item>sachin</item>
+        <item>shantanu</item>
+    </string-array>
+
+    <string-array name="Branch4">
+        <item>Computer Science &amp; Engineering</item>
+        <item>Bio Technology</item>
+        <item>Chemical Engineering</item>
+        <item>Bachelor of Science</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Electronics &amp; Communication Engineering</item>
+        <item>Electronics &amp; Communication Engineering</item>
+    </string-array>
+
+    <string-array name="Names3">
+        <item>Avneesh Yadav</item>
+        <item>Harsh Kapoor</item>
+        <item>Manas Priya</item>
+        <item>Nikhil Gautam</item>
+        <item>Prateek Raj</item>
+        <item>Sakshi Shukla</item>
+        <item>Shifali Tandon</item>
+        <item>Utsav Chhaparia</item>
+    </string-array>
+
+    <string-array name="Details3">
+        <item>avneesh.yadav.cse.2017@miet.ac.in</item>
+        <item>harsh.a.cse.2017@miet.ac.in</item>
+        <item>manaspriya.a.bt.2017@miet.ac.in</item>
+        <item>nikhil.kumar.cs.2017@miet.ac.in</item>
+        <item>prateek.raj.cse.2017@miet.ac.in</item>
+        <item>sakshi.shukla.bt.2017@miet.ac.in</item>
+        <item>shifali.tandon.cse.2017@miet.ac.in</item>
+        <item>utsav.chhaparia.cse.2017@miet.ac.in</item>
+    </string-array>
+
+    <string-array name="Photos3">
+        <item>avneesh</item>
+        <item>harsh</item>
+        <item>manas</item>
+        <item>nikhil</item>
+        <item>prateek</item>
+        <item>sakshi</item>
+        <item>shifali</item>
+        <item>utsav</item>
+    </string-array>
+
+    <string-array name="Branch3">
+        <item>Computer Science &amp; Engineering</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Bio Technology</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Bio Technology</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Computer Science &amp; Engineering</item>
+    </string-array>
+
+
+    <string-array name="Names2">
+        <item>Alok Mall</item>
+        <item>Altamash Khan</item>
+        <item>Avnee Chauhan</item>
+        <item>Harshita Misra</item>
+        <item>Jayesh Agarwal</item>
+        <item>Kumar Sahil</item>
+        <item>Richa Singh</item>
+        <item>Shivangi Verma</item>
+        <item>Soumya Dixit</item>
+    </string-array>
+
+    <string-array name="Details2">
+        <item>alok.mall.pb.2018@miet.ac.in</item>
+        <item>altamash.khan.cs.2018@miet.ac.in</item>
+        <item>avnee.chauhan.bt.2018@miet.ac.in</item>
+        <item>harshita.misra.bt.2018@miet.ac.in</item>
+        <item>jayesh.agarwal.cs.2018@miet.ac.in</item>
+        <item>kumar.sahil.bt.2018@miet.ac.in</item>
+        <item>richa.singh.cs.2018@miet.ac.in</item>
+        <item>shivangi.verma.bt.2018@miet.ac.in</item>
+        <item>02dixit.soumya@gmail.com</item>
+    </string-array>
+
+    <string-array name="Photos2">
+        <item>alok</item>
+        <item>altamash</item>
+        <item>avnee</item>
+        <item>harshita</item>
+        <item>jayesh</item>
+        <item>sahil</item>
+        <item>richa</item>
+        <item>shivangi</item>
+        <item>soumya</item>
+    </string-array>
+
+
+    <string-array name="Branch2">
+        <item>Bachelor of Pharmacy</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Bio Technology</item>
+        <item>Bio Technology</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Bio Technology</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Bio Technology</item>
+        <item>Bachelor of Pharmacy</item>
+    </string-array>
+
+</resources>

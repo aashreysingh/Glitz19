@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="NavigationDrawerWidth">325dp</dimen>
+    <dimen name="NavigationDrawerHeight">220dp</dimen>
+
+    <dimen name="dashItemWidth">80dp</dimen>
+    <dimen name="dashItemHeight">100dp</dimen>
+
+</resources>
